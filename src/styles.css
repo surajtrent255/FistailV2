@@ -92,7 +92,7 @@
     display: none;
     position: fixed;
     bottom: 18px;
-    right: 50%;
+    right: 45%;
   }
   
   .goUp i {
@@ -101,14 +101,10 @@
     height: 36px;
     line-height: 36px;
     color: #15cc1e;
-    font-size: 14px;
     text-align: center;
     border-radius: 30px;
     background-color: #d370e0;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
+
   }
   
   /* ==========================================================================
