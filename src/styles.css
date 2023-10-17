@@ -92,7 +92,7 @@
     display: none;
     position: fixed;
     bottom: 18px;
-    right: 45%;
+    right: 50%;
   }
   
   .goUp i {
@@ -230,7 +230,7 @@ body {
   .mainmenu-area .menu-button {
     line-height: 46px;
   }
-  .item-boxes h4 {
+  .suraj-boxes h4 {
     font-size: 16px;
   }
   #carousel-area .carousel-item .carousel-caption {
@@ -602,16 +602,9 @@ body {
 
 /* services */
 .services-item {
-  padding: 30px 15px;
   background: #fff;
-  border-radius: 4px;
   text-align: center;
-  margin-bottom: 30px;
-  position: relative;
-  transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
+
 } 
 .services-item .icon {
   margin-bottom: 20px;
@@ -745,37 +738,36 @@ body {
   width: 100%;
 }
 
-.item-boxes {
+.suraj-boxes {
   padding: 30px;
   border-radius: 4px;
   border: 1px solid #d5d2d2;
   margin: 15px 0;
-  webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
-.item-boxes .icon {
+.suraj-boxes .icon {
   margin-bottom: 10px;
 }
 
-.item-boxes .icon i {
+.suraj-boxes .icon i {
   font-size: 30px;
   line-height: 60px;
   color: #320779;
 }
 
-.item-boxes h4 {
+.suraj-boxes h4 {
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 15px;
 }
 
-.item-boxes p {
+.suraj-boxes p {
   margin: 0;
 }
 
-.item-boxes:hover {
+.suraj-boxes:hover {
   background: transparent;
   box-shadow: 0px 0px 20px 0px rgba(85, 84, 84, 0.35);
 }
