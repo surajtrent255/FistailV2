@@ -693,7 +693,7 @@ body {
 
 
 .section {
-  padding: 50px 0;
+  padding: 80px 0;
 }
 
 .section-header {
@@ -869,6 +869,10 @@ body {
   width: 30px;
   height: 7px;
   border-radius: 4px;
+}
+
+p{
+  text-align: justify;
 }
 
 /* // "src/assets/js/jquery-min.js",
