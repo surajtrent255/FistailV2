@@ -1,12 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap'); */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap'); */
  /* font-family: 'Roboto', sans-serif; */
 /* font-family: 'Ubuntu', sans-serif;  */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500,700|Open+Sans");
 
 .menu-bg .navbar-nav .nav-link {
-    color: #0a7fb9 !important;
+  /* 70bee6  0c1214*/
+    color: #000000 !important;
   }
   
   .menu-bg .navbar-nav .nav-link:hover {
@@ -92,7 +94,7 @@
     display: none;
     position: fixed;
     bottom: 18px;
-    right: 50%;
+    right: 5%;
   }
   
   .goUp i {
@@ -100,10 +102,10 @@
     width: 36px;
     height: 36px;
     line-height: 36px;
-    color: #15cc1e;
+    color: #fafafa;
     text-align: center;
     border-radius: 30px;
-    background-color: #d370e0;
+    background-color: #007bff;
 
   }
   
@@ -115,11 +117,11 @@
    2. GENERAL
    ========================================================================== */
 body {
-  /* font-family: 'Open Sans', sans-serif; */
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Ubuntu', sans-serif; */
   color: #000608;
-  font-size: 16px;
-  font-weight: 450;
+  font-size: 14px;
+  font-weight: 400;
   background: #ffffff;
   overflow-x: hidden;
 }
@@ -600,6 +602,15 @@ body {
   }
 } */
 
+/* #copyright p {
+  line-height: 24px;
+  font-size: 11px;
+}
+#copyright .nav-inline .nav-link {
+  padding: 8px 0;
+  font-size: 20px;
+} */
+
 /* services */
 .services-item {
   background: #fff;
@@ -707,7 +718,9 @@ body {
   font-size: 19px;
   margin-bottom: 20px;
   text-transform: uppercase;
-  font-family: 'Ubuntu', sans-serif;
+  /* font-family: 'Ubuntu', sans-serif; */
+  font-family: 'Roboto', sans-serif;
+
   font-weight: 800;
   color: #070707;
   position: relative;
@@ -729,7 +742,8 @@ body {
   font-size: 20px;
   color: rgba(0, 0, 0, 0.07);
   z-index: 2;
-  font-family: 'Ubuntu', sans-serif;
+  /* font-family: 'Ubuntu', sans-serif; */
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   text-transform: capitalize;
   position: absolute;

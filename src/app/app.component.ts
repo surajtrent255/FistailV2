@@ -101,5 +101,7 @@ export class AppComponent {
     if ((t /= 0.5) < 1) return 0.5 * Math.pow(2, 10 * (t - 1));
     return 0.5 * (-Math.pow(2, -10 * --t) + 2);
   }
+  
+
 
 }

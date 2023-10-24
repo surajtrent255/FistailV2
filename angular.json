@@ -26,7 +26,7 @@
             ],
             "styles": [
               "src/styles.css",
-              "src/assets/bootstrap/css/bootstrap.min.css",
+              "src/assets/bootstrap/css/bootstrap.min.css"
             ],
             "scripts": [
               "src/assets/js/jquery-min.js",
