@@ -40,6 +40,14 @@
     text-transform: capitalize;
     font-size: 14px;
   }
+
+
+
+
+  .custom-shadow{
+    box-shadow: 40px 30px 30px rgba(0, 0, 0, 0.2);
+  }
+  
  }
 
 
