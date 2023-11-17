@@ -7,6 +7,9 @@ import { ContactusComponent } from './contactus/contactus.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ActiveLinkDirective } from './active-link.directive';
+import { ReviewComponent } from './review/review.component';
+import { MatIconModule } from '@angular/material/icon';
+import { StarRatingComponent } from './star-rating/star-rating.component';
 // import { CarouselModule } from '@coreui/angular';
 @NgModule({
   declarations: [
@@ -15,6 +18,8 @@ import { ActiveLinkDirective } from './active-link.directive';
     ContactusComponent,
     AboutusComponent,
     ActiveLinkDirective,
+    ReviewComponent,
+    StarRatingComponent,
 
   ],
 
@@ -22,6 +27,7 @@ import { ActiveLinkDirective } from './active-link.directive';
     BrowserModule,
     ReactiveFormsModule,
     BrowserAnimationsModule,
+    MatIconModule
     // CarouselModule
   ],
   providers: [    provideAnimations(),],

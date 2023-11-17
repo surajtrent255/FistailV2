@@ -1,0 +1,8 @@
+:host {
+    display: inline-block;
+  }
+
+  mat-icon {
+    font-size: 20px;
+    cursor: pointer;
+  }

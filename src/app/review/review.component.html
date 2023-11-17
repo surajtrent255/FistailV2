@@ -1,0 +1,202 @@
+<div class="contact-form" style="font-family: Open Sans">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Customer Reviews</h2>
+    </div>
+    <div class="col-lg-12 col-md-12 col-xs-12">
+      <div class="review-list mb-2">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card shadow" style="width: 18rem">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <img
+                        class="img img-fluid rounded-circle"
+                        style="height: 40px; width: 40px"
+                        src="../assets/img/icon.jpg"
+                        alt="d"
+                      />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="row"><small>Customer1</small></div>
+                      <div class="row"><small>abc@gmail.com</small></div>
+                      <div class="row"></div>
+                    </div>
+                  </div>
+                </h5>
+                <small>
+                  <span><app-star-rating [rating]="4"></app-star-rating></span
+                ></small>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card shadow" style="width: 18rem">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <img
+                        class="img img-fluid rounded-circle"
+                        style="height: 40px; width: 40px"
+                        src="../assets/img/icon.jpg"
+                        alt="d"
+                      />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="row"><small>Customer2</small></div>
+                      <div class="row"><small>def@gmail.com</small></div>
+                      <div class="row"></div>
+                    </div>
+                  </div>
+                </h5>
+                <small>
+                  <span><app-star-rating [rating]="4"></app-star-rating></span
+                ></small>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card shadow" style="width: 18rem">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <img
+                        class="img img-fluid rounded-circle"
+                        style="height: 40px; width: 40px"
+                        src="../assets/img/icon.jpg"
+                        alt="d"
+                      />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="row"><small>Customer3</small></div>
+                      <div class="row"><small>ghi@gmail.com</small></div>
+                      <div class="row"></div>
+                    </div>
+                  </div>
+                </h5>
+                <small>
+                  <span><app-star-rating [rating]="4"></app-star-rating></span
+                ></small>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="display: flex;justify-content: center;">
+          <nav aria-label="Page navigation example " class="mt-2 shadow">
+            <ul class="pagination justify-content-center m-0">
+              <li class="page-item">
+                <a class="page-link" href="#">Previous</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <div style="display: flex;justify-content: center; margin-top: 15px;">
+        <p>
+          Click
+          <button
+            type="button"
+            class="btn btn-primary btn-sm"
+            data-toggle="modal"
+            data-target="#flipFlop"
+          >
+            here
+          </button>
+          to create your own review
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- The modal -->
+<div
+  class="modal fade"
+  id="flipFlop"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="modalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog" role="document" style="font-family: Open Sans">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="" style="font-size: 24px">Submit your own review</h2>
+        <button
+          type="button"
+          class="close"
+          data-dismiss="modal"
+          aria-label="Close"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <!-- <h4 class="modal-title" id="modalLabel">Modal Title</h4> -->
+      </div>
+      <div class="modal-body">
+        <div class="review-block text-center">
+          <form
+            action="
+                  "
+          >
+            <div class="row" style="justify-content: center">
+              <div class="col-md-8">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    placeholder="Full Name"
+                    class="form-control mb-0"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="email"
+                    placeholder="Email"
+                    class="form-control mb-0"
+                  />
+                </div>
+                <div class="form-group">
+                  <textarea
+                    type="text"
+                    placeholder="Enter Review"
+                    class="form-control"
+                  ></textarea>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <div class="submit-button d-flex justify-content-center">
+          <button class="btn btn-primary text-white">Submit</button>
+        </div>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

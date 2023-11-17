@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        :root{
+            --main-radius: 5px;
+            --main-padding: 5px;
+        }
+
+        .container{
+            display: grid;
+            height: 100vh;
+            grid-template-columns: 1fr 1fr 1fr 1fr ;
+            grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;            
+        }
+
+        nav{
+            background:red;
+            grid-area: nav;
+            border-radius: var(--main-radius);
+            padding-top: var(--main-padding);
+        }
+
+        main{
+
+        }
+
+        #sidebar{
+
+        }
+        
+        #content1{
+
+        }
+        
+        #content2{
+
+        }
+
+        #content3{
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>Navbar</nav>
+        <main>Main</main>
+        <div class="sidebar">Sidebar</div>
+        <div class="content1">Content1</div>
+        <div class="content2">Content2</div>
+        <div class="content3">Content3</div> 
+        <footer>Footer</footer>      
+    </div>
+</body>
+</html>
